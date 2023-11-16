@@ -1,0 +1,17 @@
+CREATE TABLE mahasiswa (
+nim VARCHAR (255) PRIMARY KEY,
+nama_mahasiswa VARCHAR(255) NOT NULL,
+nama_mk VARCHAR(255) NOT NULL 
+);
+
+CREATE TABLE dosen (
+id_dosen VARCHAR(255) PRIMARY KEY,
+nama_dosen VARCHAR(255) NOT NULL,
+nama_mk VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE mata_kuliah (
+kode_mk VARCHAR(255) PRIMARY KEY,
+nama_mk VARCHAR(255) NOT NULL,
+jam VARCHAR(255) NOT NULL
+);
